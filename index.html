@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fun, free flashcards for students and young learners of English that teach animal vocabulary from Els-ology.com">
+    <title>Esl-ology online animal flashcards</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <div class="nav-bar" id="navbar">
+        <a href="index.html" class="nav-bar__logo">
+          <svg class="icon-header nav-bar__logo-img">
+            <use xlink:href="sprite2.svg#Buho" onclick="scrollUp()">
+            </use>
+          </svg>    </a>
+        <h3 class="nav-bar__title">Esl-Ology.Com</h3>
+        <div class="nav-bar__title-page">
+      <img src="./img/Flag.png" alt="" class="nav-bar__title-page-deco">
+      <span class="nav-bar__title-page-main" id="pageTitle">Animal Flashcards</span>
+      <img src="./img/Flag.png" alt="" class="nav-bar__title-page-deco">
+    </div>
+    <div class="nav-bar__links">
+      <a href="index.html" class="nav-bar__link link3">Home</a>
+    </div>
+    </div>
+
+    <div class="content">
+
+        <div class="ads-top ads">
+
+        </div>
+
+       
+
+         <div class="flashcard" onclick="flipMe()">   
+             <div class="flashcard__container" id="flexi">
+                <div class="flashcard__flip-card">
+                    <div class="flashcard__flip-card-inner" id="inner">
+                        <div class="flashcard__flip-card-front" id="pics">
+                            <img src="img/cap.png" class="flashcard__art" id="art">
+                        </div>
+                        <div class="flashcard__flip-card-back">
+                            <p id="flashcard__text">cap</p> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="buttons">
+            <svg class="buttons__icon" onclick="goBackwards()">
+                <use xlink:href="sprite2.svg#left-arrow">
+                </use>
+              </svg> 
+            <p class="count" id="count">2/20</p>
+            <svg class="buttons__icon"  onclick="goForwards()">
+                <use xlink:href="sprite2.svg#right-arrow">
+                </use>
+              </svg> 
+        </div>
+
+        <div class="title">
+            <p>Click the card to see the definition</p>
+        </div>
+
+
+
+    </div>
+
+    <footer class="footer">
+        <div class="footer__copyright" id="footer">
+          <p>© 2020 Copyright Esl-ology.com & copyright owners.</p>
+          <p>Vectors & images
+      by <a href="https://www.vecteezy.com">Vecteezy</a> and <a
+        href="https://unsplash.com">Unsplash </a>etc. Icons made by  <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>. Photo credits<a href = "animal-flashcard-credits.html" target="_blank"> here</a></p>
+    </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
